@@ -1,0 +1,75 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
+#jumbo {
+    background-image: url(http://smartsourcepackaging.com/wp-content/uploads/2013/10/blurred-background-office.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    color: dark grey;
+	margin: 0px;
+	 
+}
+.navbar {
+    margin: 0px;
+    background-color: #263D42;
+    padding: 0px;
+    border: none;
+	width: 100%;
+}
+
+
+
+.navbar .navbar-nav li a {
+    color: white;
+}
+#pro {
+    position: relative;
+    left: 25%;
+    top: 50px;
+    }
+#aly {
+    position:relative;
+    left: 25%;
+    top: 50px;
+}
+#butt {
+    position:relative;
+    left: 25%;
+    top: 50px;
+}
+#pic {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	bottom: 100px;
+	left: 5%;
+	
+}
+#panel {
+	background-color: #C8CCD2; 
+	margin: 0px;
+	height: 400px;
+}
+#pheading {
+	background-color: #2A3239;
+	color: white;
+	text-align: center;
+	font-size: 100px;  
+	margin: 0px;
+	font-weight: bold; 
+}
+#footer > .container {
+	width: 100%; 
+	position: fixed;
+	bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+	background-color: #646464;
+	color:white; 
+	
+}
