@@ -31,11 +31,13 @@ html, body {
     position: relative;
     left: 25%;
     top: 50px;
+	font-family: 'Josefin Slab', serif;
     }
 #aly {
     position:relative;
     left: 25%;
     top: 50px;
+	font-family: 'Josefin Slab', serif;
 }
 #butt {
     position:relative;
@@ -47,30 +49,41 @@ html, body {
 	height: 100px;
 	width: 100px;
 	bottom: 100px;
-	left: 5%;
-	
+	left: 5%;	
 }
-#panel {
-	background-color: #C8CCD2; 
-	margin: 0px;
-	height: 400px;
-}
-#pheading {
-	background-color: #2A3239;
-	color: white;
-	text-align: center;
-	font-size: 100px;  
-	margin: 0px;
-	font-weight: bold; 
-}
-#footer > .container {
+
+#footer> .container-fluid {
 	width: 100%; 
 	position: fixed;
 	bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-	background-color: #646464;
-	color:white; 
-	
+	padding: 5px 15px 5px 15px;
+	background-color: grey;
+	color: white; 
+} 
+.about {
+	text-align: center;
+	background-color: gray;
+	margin: 0px;
+	padding: 5px 0px 5px 0px; 
 }
+.row-centered {
+	text-align: center;
+	background-image: url(blur.jpg);
+}
+.col-centered {
+	display: inline-block;
+	float:none;
+	margin-right: -4px;
+	width: 60%; 
+	height: 600px;
+	background-color: #2A3239;
+	color: white;
+}
+#para {
+	font-family: 'Josefin Slab', serif;
+	line-height: 3em;
+	text-indent: 2em;
+	text-align: left;
+}
+
 
